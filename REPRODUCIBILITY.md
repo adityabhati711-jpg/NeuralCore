@@ -70,7 +70,7 @@ python -m pytest -q
 
 At the documented development checkpoint:
 
-**205 tests passed in 9.03 seconds.**
+**216 tests passed in 9.03 seconds.**
 
 This is a recorded result, not a guarantee that every future environment or code revision will produce the same test count.
 
@@ -302,5 +302,6 @@ python -m experiments.full_training_reproducibility
 
 Results are stored in:
 `outputs/full_training_reproducibility/full_training_report.json`
+
 
 

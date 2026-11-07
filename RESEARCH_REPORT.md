@@ -20,7 +20,7 @@ The research evaluates optimizer performance, hyperparameter sensitivity, gradie
 
 An initial optimizer benchmark showed substantial differences under fixed learning rates. Following learning-rate tuning and evaluation on separate seeds, these differences narrowed. A paired early-stopping experiment across 20 random seeds found improvements in mean test accuracy and binary cross-entropy loss relative to training for a fixed 500 epochs.
 
-The implementation is supported by 205 passing automated tests and an initial reproducibility audit with 17 passing checks.
+The implementation is supported by 216 passing automated tests and an initial reproducibility audit with 17 passing checks.
 
 The findings demonstrate the importance of controlled experimental design, validation-based model selection, and transparent statistical reporting.
 
@@ -382,7 +382,7 @@ The project includes tests covering neural-network operations, numerical correct
 
 At the recorded development checkpoint:
 
-**205 tests passed in 9.03 seconds.**
+**216 tests passed in 9.03 seconds.**
 
 ### 10.2 Reproducibility Audit
 
@@ -523,5 +523,6 @@ python -m experiments.full_training_reproducibility
 
 Results are stored in:
 `outputs/full_training_reproducibility/full_training_report.json`
+
 
 

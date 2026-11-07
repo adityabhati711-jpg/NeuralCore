@@ -129,7 +129,7 @@ python -m pytest -q
 
 At the documented development checkpoint, the test suite reported:
 
-**205 passed**
+**216 passed**
 
 ## Run Experiments
 
@@ -279,4 +279,5 @@ Training and validation-loss behaviour with validation-selected checkpoint infor
 Held-out test-loss comparison between the fixed final checkpoint and validation-selected early-stopping checkpoint.
 
 For experimental configurations, numerical results, statistical interpretation, and limitations, see [RESEARCH_REPORT.md](RESEARCH_REPORT.md).
+
 
