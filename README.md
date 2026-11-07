@@ -1,5 +1,8 @@
 
 # NeuralCore
+
+[![NeuralCore CI](https://github.com/adityabhati711-jpg/NeuralCore/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/adityabhati711-jpg/NeuralCore/actions/workflows/tests.yml)
+
 ### Neural Networks from Scratch — A NumPy-Based Research and Experimentation Framework
 
 NeuralCore is a neural-network framework built from scratch using NumPy. It implements fundamental deep-learning components without relying on automatic differentiation or high-level deep-learning frameworks such as PyTorch or TensorFlow.
@@ -285,6 +288,8 @@ Training and validation-loss behaviour with validation-selected checkpoint infor
 Held-out test-loss comparison between the fixed final checkpoint and validation-selected early-stopping checkpoint.
 
 For experimental configurations, numerical results, statistical interpretation, and limitations, see [RESEARCH_REPORT.md](RESEARCH_REPORT.md).
+
+
 
 
 
