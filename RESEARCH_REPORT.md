@@ -382,7 +382,7 @@ The project includes tests covering neural-network operations, numerical correct
 
 At the recorded development checkpoint:
 
-**216 tests passed in 9.03 seconds.**
+**216 tests passed in 6.84 seconds.**
 
 ### 10.2 Reproducibility Audit
 
@@ -523,6 +523,7 @@ python -m experiments.full_training_reproducibility
 
 Results are stored in:
 `outputs/full_training_reproducibility/full_training_report.json`
+
 
 
 

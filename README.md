@@ -148,6 +148,12 @@ Some experiments perform repeated training runs and may take longer to complete.
 
 ## Run Reproducibility Audit
 
+**Prerequisite:** The research audit checks locally generated
+experiment artifacts. Because outputs/ is excluded from Git,
+run the relevant experiments before running this audit on a
+fresh clone. Missing artifacts are reported as failed checks.
+
+
 ```powershell
 python -m experiments.reproducibility_audit
 ```
@@ -279,5 +285,6 @@ Training and validation-loss behaviour with validation-selected checkpoint infor
 Held-out test-loss comparison between the fixed final checkpoint and validation-selected early-stopping checkpoint.
 
 For experimental configurations, numerical results, statistical interpretation, and limitations, see [RESEARCH_REPORT.md](RESEARCH_REPORT.md).
+
 
 
