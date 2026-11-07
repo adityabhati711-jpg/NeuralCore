@@ -1,0 +1,34 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local generated experiment outputs
+outputs/
